@@ -17,7 +17,7 @@ console.log(add(3)(1)(1));
 
 // Example 3
 let log = time => type => msg => {
-    return `At: ${time.toLocaleString()}, severity: ${type}, message: ${msg}`;
+    return `At: ${time.toLocaleString()}, bio's: ${type}, message: ${msg}`;
 }
 console.log(log(new Date())('error')('turn of your PC'));
 
